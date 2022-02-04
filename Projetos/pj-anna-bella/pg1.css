@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(imagens/fundo.png);
+}
+#principal{
+    width: 900px;
+
+}
+#centralizar{
+    background-position: center center;
+    text-align: center center;
+    box-sizing: border-box;
+    max-width: 950px;
+    margin: auto;
+
+}
+
+nav{
+    background-color: #c7baaa67;
+    padding: 20px 0px 30px 25px;
+
+}
+nav>a{
+    color: #37318d;
+    text-decoration: none;
+    font: 22px bolder arial;
+}
+#conteudo{
+    background-color: #ffffff;
+    padding: 1px 10px 10px 10px;
+    text-align: justify;
+}
+#conteudo>h1{
+    color: #886840d3;
+}
+footer>p{
+    text-align: center;
+    font: 19px bolder arial;
+    background-color: #c7baaa67;
+    margin: 0px;
+    padding: 20px;
+}
