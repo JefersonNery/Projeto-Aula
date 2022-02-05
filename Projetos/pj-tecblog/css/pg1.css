@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#black{
+    color: black;
+}
+header>h1{ 
+    text-shadow: -3px 2px 31px #ffffff;
+    color: white;
+    font: bolder 4em times;
+    margin:auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    box-shadow: 1px 1px 8px black;
+}
+header>nav{
+    max-width: 800px;
+    margin:-20px auto;
+    height: 30px;
+}
+nav>a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px 20px;
+    font: bolder 20px arial;
+    
+}
+#home{
+    margin-left: 80px;
+}
+nav>a:link{
+
+}
+nav>a:hover{
+    background-color: rgb(253, 178, 38);
+    border-radius: 10px;
+}
+
+/*===============FIM CABEÇALHO================*/
+section{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#direita{
+    box-shadow: 0px 0px 10px #d6d5d5;
+    width: 270px;
+    height: 450px;
+    float: right;
+    padding: 10px;
+    margin: 30px;
+}
+.dh2{
+    background-image: linear-gradient(to right, #c5c5c5 60%,transparent);
+    color: #4d4d4d;
+    text-shadow: 0px 0px 1px black;
+    padding: 6px;
+    margin-bottom: 9px;
+}
+#direita>p{
+    margin-bottom: 10px;
+}
+.orange1{
+    color: orange;
+    text-decoration: none;
+    font: bold 15px arial;
+}
+.orange2{
+    color: orange;
+    text-decoration: none;
+    font: bolder 19px arial;
+    margin-top: 10px;
+}
+
+#direita a:hover{
+    text-decoration: underline;
+}
+.orange2 a:hover{
+    text-decoration: underline;
+}
+
+/*=========FIM CONTEUDO DIREITA==========*/
+
+#esquerda{
+    clear: left;
+    margin-top: 70px;
+    width: 650px;
+}
+
+h1{
+    color: #ffa600;
+    text-shadow: -2px 2px 3px #ffe9c0;
+    margin-top: 10px;
+}
+#esquerda>.subt{
+    font-size: 14px;
+}
+#esquerda>p{
+    color: #000000;
+    padding: 1px;
+    font-size: 18px;
+}
+.orangelft{
+    color: orange;
+    text-decoration: none;
+    font: bold 15px arial;
+}
+
+footer{
+    font: bolder 20px black;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 30px;
+}
