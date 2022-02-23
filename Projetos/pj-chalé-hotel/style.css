@@ -12,7 +12,7 @@ body{
     box-shadow: 1px 1px 5px black;
     max-width: 990px;
     min-width: 970px;
-    height: 100vh;
+    height: 960px;
     margin: 12px auto;
 }
 #cabeçalho{
@@ -119,8 +119,7 @@ nav a {
 }
 
 footer{
-    background-image: linear-gradient(to right,#a7802d,#c9a558
-    );
+    background-image: linear-gradient(to right,#a7802d,#c9a558);
     height: 30px;
 }
 footer p{
