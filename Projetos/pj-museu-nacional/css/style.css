@@ -33,7 +33,6 @@ header{
 nav ul {
     list-style: none;
     margin: 3px 20px 20px 20px;
-
     float: right;
 }
 
@@ -55,13 +54,15 @@ nav ul li a:hover{
 #conteudo{
     width: 710px;
     float: left;
-
-}
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgba(224, 224, 224, 0.151), rgba(221, 221, 221, 0.215));
+}   
 
 aside{
     width: 350px;
     float: right;
     background: #e4e4e4;
+    margin-bottom: 20px;
 }
 
 section#visita{
@@ -74,18 +75,47 @@ section#galeria a{
     background: url(../imagens/fundo-foto.png) no-repeat;
     float: left;
     padding: 16px 16px 16px 16px;
-    border: 1px solid red;
     margin: 10px 0px 2px 30px;
 }
 section#galeria h4{
     text-align: center;
     font-size: 1.3em;
 }
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicao{
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 25px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 37px;
+}
+
 h4{
     color: #86521a;
     text-transform: uppercase;
     padding-bottom: 3px;
     margin-bottom: 0px;
+}
+h3{
+    color: #af670a;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 input{
     width: 80px;
@@ -110,5 +140,18 @@ fieldset{
 legend{
     display: none;
 }
+/* -------------- FOOTER ------------*/
+footer{
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background-image: url(../imagens/fundo-rodape.png);
+    background-repeat: no-repeat;
+    background-position: top;
 
+}
+footer>p a{
 
+    padding: 2px 10px ;
+
+}
