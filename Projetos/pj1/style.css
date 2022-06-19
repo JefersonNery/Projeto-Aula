@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeçalho{
+    background-color: yellow;
+    height: 150px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/vetores-gratis/modelo-de-gradiente-colorido-em-um-fundo-roxo-escuro_53876-114483.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+#cabeçalho > h1{
+    text-align: center;
+    padding-top: 10px;
+}
+nav > a {
+    text-decoration: none;
+    padding:
+    color: #31bfee;
+}
+nav{
+    margin-top: 85px;
+    margin-left: 10px;
+    
+}
+nav > a:hover {
+    background-color: #31bfee;
+    color: black;
+    border-radius: 9px 9px 2px 2px;
+    
+}
