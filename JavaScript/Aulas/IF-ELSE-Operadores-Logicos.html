@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <style> body{background-color: black; color: white;}</style>
+
+    <script>
+         //false = false
+        /*
+        if (!(4 == 2 )) {
+            document.write('Verdadeiro')
+
+        } else{
+            document.write('Falso')
+        }*/
+        
+        var nota = prompt('Digite A nota: ')
+        var faltas = prompt('Digite a quantidade de faltas: ')
+
+        var media = 7
+        var maxfaltas = 15
+        
+        /*
+        if (nota >= media && faltas <= maxfaltas) {
+            document.write('Parabéns !! você foi <strong>APROVADO !!</strong> ')
+
+        } else if(nota >= media && faltas > maxfaltas){
+            document.write('Parabéns !! voce foi <strong>APROVADO,</strong> mas evite faltas futuras.')
+
+        } else if (faltas > maxfaltas){
+            document.write('Infelizmente você foi <strong>REPROVADO,</strong> Evite faltas no futuro.')
+
+        } else{
+            document.write('Infelizmente você foi <strong>REPROVADO</strong>')
+        }
+        */
+
+        var resultado = ( nota >= media && faltas <= maxfaltas) ? 'Aprovado' : 'Reprovado'
+        document.write(resultado)
+
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
